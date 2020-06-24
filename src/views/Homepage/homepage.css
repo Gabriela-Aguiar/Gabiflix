@@ -1,0 +1,119 @@
+.showcase {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.showcase-top {
+    position: relative;
+    height: 90px;
+}
+
+.showcase-title {
+    background-image: linear-gradient(45deg, #aa79fc, #7bffe9);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 93vh;
+    box-shadow: inset 80px 60px 250px #000, inset -80px -60px 250px #000;
+}
+
+.link {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.showcase-content h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1rem;
+    margin-bottom: 3rem;
+}
+
+.showcase-content p {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0 0 2rem;
+}
+
+.showcase-bottom {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.showcase-bottom p {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*BUTTONS*/
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #FFF;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+
+.btn-xl {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+}

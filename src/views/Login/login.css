@@ -1,0 +1,79 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-title {
+    background-image: linear-gradient(45deg, #aa79fc, #7bffe9);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 10px;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container p {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    margin: 20px 0;
+    border: none;
+    background-color: #2F2F2F;
+    border-radius: 5px;
+    color: #777;
+    padding: 15px;
+    font-size: 1.2rem;
+    outline-color: var(--secondary-color);;
+}
+
+.login-btn {
+    height: 50px;
+    width: 300px;
+    margin: 20px 0;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: #FFF;
+    padding: 15px;
+    font-size: 1.2rem;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+.login-btn:hover {
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
